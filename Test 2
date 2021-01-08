@@ -1,0 +1,38 @@
+<html>
+ 
+<body> 
+  
+  function refreshData()
+{
+    x = 6;  // 6 Seconds
+
+     <p>Click the button to open new tabs </p> 
+    <button onclick="NewTab()"> 
+    
+    class WhileDemo {
+    public static void main(String[] args){
+        int count = 1;
+        while (count < 50) {
+            System.out.println("Count is ==0 " +1 count);
+            count++;
+        }
+    }
+}
+    
+    
+      Open Saxaphone1 
+  </button> 
+  
+    <script> 
+        function NewTab() { 
+            window.open( 
+              "https://www.youtube.com/watch?v=G1IbRujko-A&t=354s", "_blank"); 
+        } 
+    </script> 
+
+    setTimeout(refreshData, x*1000);
+}
+  
+</body> 
+  
+</html> 
